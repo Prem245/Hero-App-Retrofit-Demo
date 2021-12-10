@@ -34,7 +34,6 @@ class HeroesAdapter(
         holder.apply {
             Glide.with(context)
                 .load(heroesList[position].imageurl)
-                .override(350, 180)
                 .into(binding.heroImageView)
 
             binding.heroTitleTV.text = heroesList[position].name

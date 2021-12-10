@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HeroesTrayAppRetrofitMVVM</string>
+    <string name="sample">Heroes App</string>
 </resources>
